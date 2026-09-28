@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Blue dollar coin -->
+    <path
+        android:fillColor="#2E90EB"
+        android:pathData="M35,27 C49.9,27 62,39.1 62,54 C62,68.9 49.9,81 35,81 C20.1,81 8,68.9 8,54 C8,39.1 20.1,27 35,27 Z" />
+    <!-- Green euro coin, in front -->
+    <path
+        android:fillColor="#3FD08D"
+        android:pathData="M73,27 C87.9,27 100,39.1 100,54 C100,68.9 87.9,81 73,81 C58.1,81 46,68.9 46,54 C46,39.1 58.1,27 73,27 Z" />
+    <!-- Blue coin rim -->
+    <path
+        android:strokeColor="#14304E"
+        android:strokeWidth="3.4"
+        android:pathData="M35,27 C49.9,27 62,39.1 62,54 C62,68.9 49.9,81 35,81 C20.1,81 8,68.9 8,54 C8,39.1 20.1,27 35,27 Z" />
+    <path
+        android:strokeColor="#14304E"
+        android:strokeWidth="2.6"
+        android:pathData="M35,32 C47.15,32 57,41.85 57,54 C57,66.15 47.15,76 35,76 C22.85,76 13,66.15 13,54 C13,41.85 22.85,32 35,32 Z" />
+    <!-- Green coin rim -->
+    <path
+        android:strokeColor="#14304E"
+        android:strokeWidth="3.4"
+        android:pathData="M73,27 C87.9,27 100,39.1 100,54 C100,68.9 87.9,81 73,81 C58.1,81 46,68.9 46,54 C46,39.1 58.1,27 73,27 Z" />
+    <path
+        android:strokeColor="#14304E"
+        android:strokeWidth="2.6"
+        android:pathData="M73,32 C85.15,32 95,41.85 95,54 C95,66.15 85.15,76 73,76 C60.85,76 51,66.15 51,54 C51,41.85 60.85,32 73,32 Z" />
+    <!-- Dollar sign -->
+    <group
+        android:pivotX="12"
+        android:pivotY="12"
+        android:scaleX="1.8"
+        android:scaleY="1.8"
+        android:translateX="23"
+        android:translateY="42">
+        <path
+            android:strokeColor="#14304E"
+            android:strokeWidth="2"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M12,3 L12,21" />
+        <path
+            android:strokeColor="#14304E"
+            android:strokeWidth="2"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M12,6 C10.34,6 9,7.34 9,9 C9,10.66 10.34,12 12,12 C13.66,12 15,13.34 15,15 C15,16.66 13.66,18 12,18" />
+    </group>
+    <!-- Euro sign -->
+    <group
+        android:pivotX="12"
+        android:pivotY="12"
+        android:scaleX="1.8"
+        android:scaleY="1.8"
+        android:translateX="61"
+        android:translateY="42">
+        <path
+            android:strokeColor="#14304E"
+            android:strokeWidth="2"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M18,6 C12,6 8,8 8,12 C8,16 12,18 18,18" />
+        <path
+            android:strokeColor="#14304E"
+            android:strokeWidth="2"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M5,10 L15,10" />
+        <path
+            android:strokeColor="#14304E"
+            android:strokeWidth="2"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M5,14 L15,14" />
+    </group>
+</vector>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Currency Converter</string>
+
+    <!-- Navigation -->
+    <string name="nav_convert">Convert</string>
+    <string name="nav_favorites">Favorites</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Home -->
+    <string name="pair_title">%1$s → %2$s</string>
+    <string name="amount_label">Amount in %1$s</string>
+    <string name="swap_currencies">Swap currencies</string>
+    <string name="select_currency_from">Select source currency. Current: %1$s</string>
+    <string name="select_currency_to">Select target currency. Current: %1$s</string>
+    <string name="rate_line">1 %1$s = %2$s %3$s</string>
+    <string name="refresh_rates">Refresh rates</string>
+    <string name="add_to_favorites">Add the %1$s to %2$s pair to favorites</string>
+    <string name="remove_from_favorites">Remove the %1$s to %2$s pair from favorites</string>
+    <string name="favorite_pairs">Favorite pairs</string>
+    <string name="favorites_hint">Tap the star to keep a pair here for one-tap access.</string>
+    <string name="refresh_throttled">Rates were just refreshed. Try again in a few seconds.</string>
+    <string name="loading_rates">Loading rates…</string>
+    <string name="empty_rates_title">No rate available</string>
+    <string name="empty_rates_body">There is no rate for this pair yet. Pull down to refresh.</string>
+    <string name="error_title">Can\'t load rates</string>
+    <string name="retry">Retry</string>
+    <string name="favorite_item_description">%1$s to %2$s, rate %3$s. Open in converter</string>
+    <string name="favorite_item_no_rate">%1$s to %2$s. Open in converter</string>
+
+    <!-- Freshness -->
+    <string name="status_updated">Updated %1$s</string>
+    <string name="status_offline">Offline · Last updated %1$s</string>
+    <string name="status_cached">Saved rates · Last updated %1$s</string>
+    <string name="age_just_now">just now</string>
+    <plurals name="age_minutes">
+        <item quantity="one">%d min ago</item>
+        <item quantity="other">%d min ago</item>
+    </plurals>
+    <plurals name="age_hours">
+        <item quantity="one">%d h ago</item>
+        <item quantity="other">%d h ago</item>
+    </plurals>
+    <string name="age_today_at">today at %1$s</string>
+    <string name="age_yesterday_at">yesterday at %1$s</string>
+    <string name="age_date_at">%1$s at %2$s</string>
+
+    <!-- Errors -->
+    <string name="error_network">Couldn\'t update rates. Check your internet connection.</string>
+    <string name="error_api">Couldn\'t update rates. The rates service is unavailable right now.</string>
+    <string name="error_api_code">Couldn\'t update rates. The rates service returned an error (%1$d).</string>
+    <string name="error_parsing">Couldn\'t update rates. The service sent data the app can\'t read.</string>
+    <string name="error_unknown">Couldn\'t update rates because of an unexpected problem.</string>
+    <string name="error_showing_saved">Showing saved rates.</string>
+
+    <!-- Currency picker -->
+    <string name="picker_title">Select currency</string>
+    <string name="picker_search_hint">Search by code, name or symbol</string>
+    <string name="picker_clear_search">Clear search</string>
+    <string name="picker_no_results">No currencies found</string>
+    <string name="picker_selected">Selected</string>
+
+    <!-- Favorites -->
+    <string name="favorites_title">Favorites</string>
+    <string name="favorites_empty_title">No favorite pairs yet</string>
+    <string name="favorites_empty_body">Add pairs from the converter with the star button, or use the button below.</string>
+    <string name="move_up">Move %1$s up</string>
+    <string name="move_down">Move %1$s down</string>
+    <string name="remove_favorite">Remove %1$s from favorites</string>
+    <string name="add_pair">Add pair</string>
+    <string name="add_pair_title">Add favorite pair</string>
+    <string name="add_pair_from">From</string>
+    <string name="add_pair_to">To</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_section_general">General</string>
+    <string name="settings_section_about">About</string>
+    <string name="settings_default_base">Default base currency</string>
+    <string name="settings_default_base_summary">The converter starts from this currency.</string>
+    <string name="settings_theme">Theme</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="settings_refresh_interval">Update frequency</string>
+    <string name="settings_refresh_interval_summary">How often rates are refreshed automatically.</string>
+    <string name="interval_manual">Manual only</string>
+    <string name="interval_1h">Every hour</string>
+    <string name="interval_3h">Every 3 hours</string>
+    <string name="interval_6h">Every 6 hours</string>
+    <string name="interval_12h">Every 12 hours</string>
+    <string name="interval_24h">Daily</string>
+    <string name="settings_decimals">Decimal places</string>
+    <string name="settings_decimals_summary">Digits shown after the decimal separator in results.</string>
+    <string name="decimals_auto">Auto</string>
+    <string name="settings_version">Version</string>
+    <string name="settings_data_source">Data source</string>
+    <string name="settings_disclaimer">Rates are provided for information only and may differ from the rates offered by banks.</string>
+</resources>

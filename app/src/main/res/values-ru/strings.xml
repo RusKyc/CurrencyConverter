@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Конвертер валют</string>
+
+    <!-- Navigation -->
+    <string name="nav_convert">Конвертер</string>
+    <string name="nav_favorites">Избранное</string>
+    <string name="nav_settings">Настройки</string>
+
+    <!-- Home -->
+    <string name="pair_title">%1$s → %2$s</string>
+    <string name="amount_label">Сумма в %1$s</string>
+    <string name="swap_currencies">Поменять валюты местами</string>
+    <string name="select_currency_from">Выбрать исходную валюту. Сейчас: %1$s</string>
+    <string name="select_currency_to">Выбрать целевую валюту. Сейчас: %1$s</string>
+    <string name="rate_line">1 %1$s = %2$s %3$s</string>
+    <string name="refresh_rates">Обновить курсы</string>
+    <string name="add_to_favorites">Добавить пару %1$s — %2$s в избранное</string>
+    <string name="remove_from_favorites">Убрать пару %1$s — %2$s из избранного</string>
+    <string name="favorite_pairs">Избранные пары</string>
+    <string name="favorites_hint">Нажмите на звезду, чтобы пара всегда была под рукой.</string>
+    <string name="refresh_throttled">Курсы только что обновлены. Повторите через несколько секунд.</string>
+    <string name="loading_rates">Загрузка курсов…</string>
+    <string name="empty_rates_title">Курс недоступен</string>
+    <string name="empty_rates_body">Для этой пары пока нет курса. Потяните вниз, чтобы обновить.</string>
+    <string name="error_title">Не удалось загрузить курсы</string>
+    <string name="retry">Повторить</string>
+    <string name="favorite_item_description">%1$s — %2$s, курс %3$s. Открыть в конвертере</string>
+    <string name="favorite_item_no_rate">%1$s — %2$s. Открыть в конвертере</string>
+
+    <!-- Freshness -->
+    <string name="status_updated">Обновлено %1$s</string>
+    <string name="status_offline">Офлайн · Обновлено %1$s</string>
+    <string name="status_cached">Сохранённые курсы · Обновлено %1$s</string>
+    <string name="age_just_now">только что</string>
+    <plurals name="age_minutes">
+        <item quantity="one">%d мин назад</item>
+        <item quantity="few">%d мин назад</item>
+        <item quantity="many">%d мин назад</item>
+        <item quantity="other">%d мин назад</item>
+    </plurals>
+    <plurals name="age_hours">
+        <item quantity="one">%d ч назад</item>
+        <item quantity="few">%d ч назад</item>
+        <item quantity="many">%d ч назад</item>
+        <item quantity="other">%d ч назад</item>
+    </plurals>
+    <string name="age_today_at">сегодня в %1$s</string>
+    <string name="age_yesterday_at">вчера в %1$s</string>
+    <string name="age_date_at">%1$s в %2$s</string>
+
+    <!-- Errors -->
+    <string name="error_network">Не удалось обновить курсы. Проверьте подключение к интернету.</string>
+    <string name="error_api">Не удалось обновить курсы. Сервис курсов сейчас недоступен.</string>
+    <string name="error_api_code">Не удалось обновить курсы. Сервис курсов вернул ошибку (%1$d).</string>
+    <string name="error_parsing">Не удалось обновить курсы. Сервис прислал данные, которые приложение не смогло прочитать.</string>
+    <string name="error_unknown">Не удалось обновить курсы из-за непредвиденной ошибки.</string>
+    <string name="error_showing_saved">Показаны сохранённые курсы.</string>
+
+    <!-- Currency picker -->
+    <string name="picker_title">Выберите валюту</string>
+    <string name="picker_search_hint">Поиск по коду, названию или символу</string>
+    <string name="picker_clear_search">Очистить поиск</string>
+    <string name="picker_no_results">Валюты не найдены</string>
+    <string name="picker_selected">Выбрано</string>
+
+    <!-- Favorites -->
+    <string name="favorites_title">Избранное</string>
+    <string name="favorites_empty_title">Избранных пар пока нет</string>
+    <string name="favorites_empty_body">Добавляйте пары в конвертере кнопкой со звездой или кнопкой ниже.</string>
+    <string name="move_up">Поднять пару %1$s выше</string>
+    <string name="move_down">Опустить пару %1$s ниже</string>
+    <string name="remove_favorite">Убрать пару %1$s из избранного</string>
+    <string name="add_pair">Добавить пару</string>
+    <string name="add_pair_title">Новая избранная пара</string>
+    <string name="add_pair_from">Из</string>
+    <string name="add_pair_to">В</string>
+    <string name="add">Добавить</string>
+    <string name="cancel">Отмена</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_section_general">Основные</string>
+    <string name="settings_section_about">О приложении</string>
+    <string name="settings_default_base">Базовая валюта по умолчанию</string>
+    <string name="settings_default_base_summary">Конвертер начинает с этой валюты.</string>
+    <string name="settings_theme">Тема</string>
+    <string name="theme_system">Системная</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_dark">Тёмная</string>
+    <string name="settings_refresh_interval">Частота обновления</string>
+    <string name="settings_refresh_interval_summary">Как часто курсы обновляются автоматически.</string>
+    <string name="interval_manual">Только вручную</string>
+    <string name="interval_1h">Каждый час</string>
+    <string name="interval_3h">Каждые 3 часа</string>
+    <string name="interval_6h">Каждые 6 часов</string>
+    <string name="interval_12h">Каждые 12 часов</string>
+    <string name="interval_24h">Раз в сутки</string>
+    <string name="settings_decimals">Знаков после запятой</string>
+    <string name="settings_decimals_summary">Сколько знаков показывать в результатах.</string>
+    <string name="decimals_auto">Авто</string>
+    <string name="settings_version">Версия</string>
+    <string name="settings_data_source">Источник данных</string>
+    <string name="settings_disclaimer">Курсы носят информационный характер и могут отличаться от курсов банков.</string>
+</resources>

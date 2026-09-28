@@ -1,0 +1,13 @@
+## Copy this file to local.properties (it is git-ignored) and adjust.
+## Android Studio writes sdk.dir automatically.
+# sdk.dir=C\:\\Users\\you\\AppData\\Local\\Android\\Sdk
+
+## --- Exchange-rate provider (all optional) ---
+## Default provider is ExchangeRate-API (open.er-api.com): free, no API key required,
+## ~160 currencies including RUB (Frankfurter/ECB does not quote RUB).
+# rates.baseUrl=https://open.er-api.com/
+## Only needed if you switch to a provider that requires a key.
+## The key is injected into BuildConfig at build time and never committed.
+# rates.apiKey=
+## Name of the HTTP header that carries the key (default: Authorization).
+# rates.apiKeyHeader=Authorization
